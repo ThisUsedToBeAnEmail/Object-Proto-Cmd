@@ -1,0 +1,40 @@
+Object-Proto-Cmd
+
+Object::Proto::Cmd is a subcommand CLI framework built on Object::Proto.
+Command classes are Object::Proto classes, their attributes become GNU
+style command line options, subcommands are registered explicitly, help
+text is generated from the declarations and exit codes follow a simple
+contract: 0 when fine, 1 when the thing you asked about is wrong, 2 when
+the command was used wrongly.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Object::Proto::Cmd
+
+You can also look for information at:
+
+    RT, CPAN's request tracker (report bugs here)
+        https://rt.cpan.org/NoAuth/Bugs.html?Dist=Object-Proto-Cmd
+
+    Search CPAN
+        https://metacpan.org/release/Object-Proto-Cmd
+
+LICENSE AND COPYRIGHT
+
+This software is Copyright (c) 2026 by LNATION.
+
+This is free software, licensed under:
+
+  The Artistic License 2.0 (GPL Compatible)

@@ -1,0 +1,26 @@
+Changes
+ignore.txt
+lib/Object/Proto/Cmd.pm
+Makefile.PL
+MANIFEST			This list of files
+README
+t/00-load.t
+t/01-keywords.t
+t/02-parser.t
+t/03-dispatch.t
+t/04-help.t
+t/05-exit-codes.t
+t/06-inheritance.t
+t/07-guards.t
+t/20-e2e.t
+t/bin/greet
+t/lib/CmdSpawn.pm
+t/lib/Greet/Cmd.pm
+t/lib/Greet/Cmd/Hello.pm
+t/lib/Greet/Cmd/Wave.pm
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
+xt/boilerplate.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

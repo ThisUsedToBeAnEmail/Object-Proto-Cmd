@@ -1,0 +1,10 @@
+#!/usr/bin/env perl
+
+# A dispatcher and nothing else - the work lives in the Greet::Cmd
+# classes, so it is testable without spawning a process.
+
+use strict;
+use warnings;
+use Greet::Cmd;
+
+exit Greet::Cmd->main(@ARGV);

@@ -1,0 +1,7 @@
+Revision history for Object-Proto-Cmd
+
+0.01	2026-08-14
+	- First version, released on an unsuspecting world.
+	- command, option, arg, abstract, usage, name and extends keywords.
+	- GNU style option parser with short bundling, --no- negation and --.
+	- Nested subcommand dispatch with generated help and 0/1/2 exit codes.
